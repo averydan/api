@@ -1,0 +1,11 @@
+.features-clean {
+}
+
+@media (min-width: 992px) {
+  .simple-slider {
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+        <div class="controls">
+                <form>
+                        <div class="form-group">
+                          <label for="search">Food you do like, separated by commas:</label>
+                          <input type="text" class="form-control search" id="search" aria-describedby="emailHelp" placeholder="Chicken,Cheese">
+                        </div>
+                        <div class="form-group">
+                          <label for="search">Food you don't like, separated by commas (optional):</label>
+                          <input type="text" class="form-control nogo" id="nogo" placeholder="Beef,Tomato">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Show Me Good Recipes</button>
+                      </form>
+
+                <!--Search Form-->
+                <!-- <form>
+                    <p>
+                        <label for="search">Enter as many food items as you want, seperated by commas: </label>
+                        <input type="text" id="search" class="search" required>
+                    </p>
+                    <p>
+                        <label for="search">Enter foods to avoid, seperated by commas (optional): </label>
+                        <input type="text" id="nogo" class="nogo">
+                    </p>
+                    <p>
+                        <button class="submit">Give Me Killer Recipes</button>
+                    </p>
+                </form> -->
+            </div>
+    <div class="simple-slider">
+        <div class="swiper-container" style="background-color: rgba(211,211,211,0.75);">
+            <div id="results" class="swiper-wrapper">
+                <!-- <div class="swiper-slide" style="background-image: url(https://www.edamam.com/web-img/262/262b4353ca25074178ead2a07cdf7dc1.jpg);background-size: contain;">
+                    <div class="imageCapt"><span>Text</span></div>
+                </div> -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+</body>
+
+</html>
